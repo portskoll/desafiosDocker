@@ -1,0 +1,5 @@
+tentei ao maximo fazer fazer com que todos os logs ficassem dentro do volime do container, não consegui.
+tinha x que o : 'sudo docker exec -it meu_nginx cat /var/log/nginx/access.log' travava o console sem dar
+ resultado nenhum.
+
+ A maneira de deixar um log completo foi colocar um arquivo onde rodava o script
